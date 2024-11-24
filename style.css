@@ -1,0 +1,496 @@
+body {
+    width: 1080px; 
+    height: 1920px;
+    border: 2px red;
+    background-color: rgb(11, 11, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    overflow: auto;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+h3 {
+    transform: translateY(520px);
+}
+
+.container {
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+
+.tombol {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    padding: 8px 8px 8px 8px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    color: rgb(11, 11, 31);
+    font-size: 50px;
+    margin-top: 50px;
+    position: relative;
+    cursor: pointer;;
+    bottom: -500px;
+
+}
+
+.titik {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: translateX(185px) translateY(-200px);
+    background-color: rgb(255, 0, 0);
+    animation: glow1 3s infinite;
+}
+
+.flower {
+
+    transition: 6s;
+    position: relative;
+    justify-content: center;
+    /* align-items: center; */
+    transform: translateX(180px) translateY(-200px) scale(2);
+
+}
+
+
+
+.fw1 {
+    animation: rotateInverse 4s ease-in-out;
+    animation-delay: .3s;
+}
+
+.fw2 {
+    animation: rotate 6s ease-in-out;
+}
+.fw3 {
+    animation: rotateInverse 5s ease-in-out;
+}
+.fw4 {
+    animation: rotate 7s ease-in-out;
+}
+.fw5 {
+    animation: rotateInverse 2.5s ease-in-out;
+}
+
+
+
+
+.fw1Move {
+    animation: rotate 4s ease-in-out;
+    animation-delay: .3s;
+}
+
+.fw2Move {
+    animation: rotateInverse 6s ease-in-out;
+}
+
+.fw3Move {
+    animation: rotate 5s ease-in-out;
+}
+
+.fw4Move {
+    animation: rotateInverse 7s ease-in-out;
+}
+.fw5Move {
+    animation: rotate 2.5s ease-in-out;
+}
+
+/* FLOWER 1 START */
+
+.flower1 {
+    height: 10px;
+    width: 10px;
+}
+
+.flower1on {
+    position: absolute;
+    border-radius: 10px 70%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(15, 15, 105);
+    background: linear-gradient(140deg, rgba(0, 212, 255, 1) 0%, rgba(9, 9, 121, 1) 85%, rgba(2, 0, 36, 1) 100%);
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    transform-origin: left top;
+    top: 50%;
+    
+
+
+}
+
+
+.n1 {
+    transform: rotate(92deg);
+    transition: 1s ease-in-out;
+    animation: glow1 1s ease-in-out infinite;
+    animation-delay: .3s;
+}
+
+.n2 {
+    transition: 1s ease-in-out;
+    transform: rotate(152deg);
+    animation: glow1 1.2s ease-in-out infinite;
+    transition-delay: .2s;
+    animation-delay: .3s;
+}
+
+.n3 {
+    transition: 1s ease-in-out;
+    transform: rotate(212deg);
+    animation: glow1 1.4s ease-in-out infinite;
+    transition-delay: .4s;
+    animation-delay: .3s;
+}
+
+.n4 {
+    transition: 1s ease-in-out;
+    transform: rotate(282deg);
+    animation: glow1 1.6s ease-in-out infinite;
+    transition-delay: .6s;
+    animation-delay: .3s;
+}
+
+.n5 {
+    transition: 1s ease-in-out;
+    transform: rotate(332deg);
+    animation: glow1 1.8s ease-in-out infinite;
+    transition-delay: .8s;
+    animation-delay: .3s;
+}
+
+.n6 {
+    transition: 1s ease-in-out;
+    transform: rotate(392deg);
+    animation: glow1 2s ease-in-out infinite;
+    transition-delay: 1s;
+    animation-delay: .3s;
+
+}
+
+/* FLOWER 1 DONE */
+/* FLOWER 2 START */
+
+
+.flower2 {
+    height: 10px;
+    width: 10px;
+}
+
+.flower2on {
+    border-radius: 30px 70%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(0, 62, 103);
+    background: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(255,254,230,1) 17%, rgba(255,254,193,1) 56%, rgba(252,255,135,1) 89%, rgba(255,202,67,1) 100%);    height: 80px;
+    margin: auto;
+    width: 80px;
+    position: absolute;
+    transform-origin: left top;
+    top: 50%;
+
+}
+
+.m1 {
+    transform: rotate(60deg);
+    transition: 1s ease-in-out;
+    animation: glow2 1s ease-in-out infinite;
+
+}
+
+.m2 {
+    transition: 1s ease-in-out;
+    transform: rotate(120deg);
+    animation: glow2 1.2s ease-in-out infinite;
+    transition-delay: .2s;
+
+
+}
+
+.m3 {
+    transition: 1s ease-in-out;
+    transform: rotate(180deg);
+    animation: glow2 1.4s ease-in-out infinite;
+    transition-delay: .4s;
+
+}
+
+.m4 {
+    transition: 1s ease-in-out;
+    transform: rotate(240deg);
+    animation: glow2 1.6s ease-in-out infinite;
+    transition-delay: .6s;
+
+}
+
+.m5 {
+    transition: 1s ease-in-out;
+    transform: rotate(300deg);
+    animation: glow2 1.8s ease-in-out infinite;
+    transition-delay: .8s;
+
+}
+
+.m6 {
+    transition: 1s ease-in-out;
+    transform: rotate(360deg);
+    animation: glow2 2s ease-in-out infinite;
+    transition-delay: 1s;
+
+}
+
+/* FLOWER 2 DONE */
+/* FLOWER 3 START */
+.flower3 {
+    height: 10px;
+    width: 10px;
+}
+
+.flower3on {
+    border-radius: 5px 70%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(0, 62, 103);
+    background: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(230,251,255,1) 17%, rgba(193,249,255,1) 56%, rgba(135,230,255,1) 84%, rgba(135,238,255,1) 89%, rgba(67,207,255,1) 100%);
+    height: 80px;
+    margin: auto;
+    width: 80px;
+    position: absolute;
+    transform-origin: left top;
+    top: 50%;
+}
+
+.o1 {
+    transform: rotate(90deg);
+    transition: 1s ease-in-out;
+    animation: glow2 1s ease-in-out infinite;
+
+}
+
+.o2 {
+    transition: 1s ease-in-out;
+    transform: rotate(150deg);
+    animation: glow2 1.2s ease-in-out infinite;
+    transition-delay: .2s;
+
+
+}
+
+.o3 {
+    transition: 1s ease-in-out;
+    transform: rotate(210deg);
+    animation: glow2 1.4s ease-in-out infinite;
+    transition-delay: .4s;
+
+}
+
+.o4 {
+    transition: 1s ease-in-out;
+    transform: rotate(270deg);
+    animation: glow2 1.6s ease-in-out infinite;
+    transition-delay: .6s;
+
+}
+
+.o5 {
+    transition: 1s ease-in-out;
+    transform: rotate(330deg);
+    animation: glow2 1.8s ease-in-out infinite;
+    transition-delay: .8s;
+
+}
+
+.o6 {
+    transition: 1s ease-in-out;
+    transform: rotate(390deg);
+    animation: glow2 2s ease-in-out infinite;
+    transition-delay: 1s;
+}
+
+/* FLOWER 3 DONE */
+/* FLOWER 4 START */
+.flower4 {
+    height: 10px;
+    width: 10px;
+}
+
+.flower4on {
+    border-radius: 15px 60%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(7, 2, 82);
+    background: linear-gradient(140deg, rgba(255,255,255,1) 0%, rgba(230,251,255,1) 17%, rgba(193,249,255,1) 56%, rgba(135,230,255,1) 84%, rgba(135,238,255,1) 89%, rgba(67,207,255,1) 100%);
+    position: absolute;
+    transform-origin: left top;
+    height: 90px;
+    width: 90px;
+    top: 50%;
+}
+
+.p1 {
+    transform: rotate(60deg);
+    transition: 1s ease-in-out;
+    animation: glow2 1s ease-in-out infinite;
+
+}
+
+.p2 {
+    transition: 1s ease-in-out;
+    transform: rotate(120deg);
+    animation: glow2 1.2s ease-in-out infinite;
+    transition-delay: .2s;
+
+
+}
+
+.p3 {
+    transition: 1s ease-in-out;
+    transform: rotate(180deg);
+    animation: glow2 1.4s ease-in-out infinite;
+    transition-delay: .4s;
+
+}
+
+.p4 {
+    transition: 1s ease-in-out;
+    transform: rotate(240deg);
+    animation: glow2 1.6s ease-in-out infinite;
+    transition-delay: .6s;
+
+}
+
+
+.p5 {
+    transition: 1s ease-in-out;
+    transform: rotate(300deg);
+    animation: glow2 1.8s ease-in-out infinite;
+    transition-delay: .8s;
+
+}
+
+.p6 {
+    transition: 1s ease-in-out;
+    transform: rotate(360deg);
+    animation: glow2 2s ease-in-out infinite;
+    transition-delay: 1s;
+}
+
+/* FLOWER 4 DONE */
+/* FLOWER 5 START */
+.flower5 {
+    height: 10px;
+    width: 10px;
+}
+
+.flower5on {
+    border-radius: 8px 60%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(103, 10, 0);
+    background: linear-gradient(73deg, rgba(255,198,84,1) 0%, rgba(255,155,53,1) 66%, rgba(255,121,31,1) 89%, rgba(252,79,0,1) 100%);
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    transform-origin: left top;
+    top: 50%;
+}
+
+.q1 {
+    transform: rotate(60deg);
+    transition: 1s ease-in-out;
+    animation: glow2 1s ease-in-out infinite;
+
+}
+
+.q2 {
+    transition: 1s ease-in-out;
+    transform: rotate(120deg);
+    animation: glow2 1.2s ease-in-out infinite;
+    transition-delay: .2s;
+
+
+}
+
+.q3 {
+    transition: 1s ease-in-out;
+    transform: rotate(180deg);
+    animation: glow2 1.4s ease-in-out infinite;
+    transition-delay: .4s;
+
+}
+
+.q4 {
+    transition: 1s ease-in-out;
+    transform: rotate(240deg);
+    animation: glow2 1.6s ease-in-out infinite;
+    transition-delay: .6s;
+
+}
+
+.q5 {
+    transition: 1s ease-in-out;
+    transform: rotate(300deg);
+    animation: glow2 1.8s ease-in-out infinite;
+    transition-delay: .8s;
+
+}
+
+.q6 {
+    transition: 1s ease-in-out;
+    transform: rotate(360deg);
+    animation: glow2 2s ease-in-out infinite;
+    transition-delay: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes glow1 {
+
+    0%,
+    100% {
+        box-shadow: 0px 0px 82px 20px rgba(133, 212, 255, 0.429);
+    }
+
+    20%,
+    30% {
+        box-shadow: none;
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359.9deg);
+    }
+}
+
+@keyframes rotateInverse {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(-359.9deg);
+    }
+}
